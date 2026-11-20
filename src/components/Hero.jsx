@@ -13,9 +13,8 @@ export default function Hero() {
           <em>Kami Terima.</em>
         </h1>
         <p className="hero-description">
-          Kahuripan Sejahtera melayani jual beli barang bekas yang membantu rumah, kantor,
-          gudang, restoran, dan bisnis mengelola aset lama dengan cara yang mudah, cepat, dan
-          transparan.
+          Kahuripan Sejahtera melayani jual beli barang bekas yang membantu rumah, kantor, gudang,
+          restoran, dan bisnis mengelola aset lama dengan cara yang mudah, cepat, dan transparan.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href="#layanan">
@@ -29,10 +28,7 @@ export default function Hero() {
 
       <div className="hero-visual">
         <div className="hero-image-frame">
-          <img
-            src="/images/hero-market.svg"
-            alt="Ilustrasi berbagai barang bekas yang masih memiliki nilai"
-          />
+          <img src="/images/hero-indonesia.jpg" alt="Gudang barang bekas di Depok, Indonesia" />
           <div className="hero-image-label">
             <span>Praktis, transparan, dan profesional</span>
             <ArrowUpRight size={15} />

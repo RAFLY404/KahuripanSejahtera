@@ -20,32 +20,32 @@ export const itemGallery = [
   {
     title: 'AC bekas',
     image: '/images/used-ac.jpg',
-    source: 'Wikimedia Commons · BORNTHISWAYMEDIA',
+    source: '',
   },
   {
     title: 'Genset',
     image: '/images/used-genset.jpg',
-    source: 'Wikimedia Commons · Calvin Ho Jiang Lim',
+    source: '',
   },
   {
     title: 'Furniture',
     image: '/images/used-furniture.jpg',
-    source: 'Wikimedia Commons · Trondheim folkebibliotek',
+    source: '',
   },
   {
     title: 'Spring bed',
     image: '/images/used-mattress.jpg',
-    source: 'Wikimedia Commons',
+    source: '',
   },
   {
     title: 'Alat masak & restoran',
     image: '/images/used-kitchen.jpg',
-    source: 'Wikimedia Commons · Stuart Spivack',
+    source: '',
   },
   {
     title: 'Komputer & elektronik',
     image: '/images/used-electronics.jpg',
-    source: 'Wikimedia Commons · Wojciech Pędzich',
+    source: '',
   },
 ];
 

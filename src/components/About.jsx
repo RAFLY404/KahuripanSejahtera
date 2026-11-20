@@ -2,7 +2,10 @@ export default function About() {
   return (
     <section className="about section-pad" id="tentang">
       <div className="about-image">
-        <img src="/images/category-home.svg" alt="Ilustrasi pengelolaan aset dan barang bekas" />
+        <img
+          src="/images/about-indonesia.jpg"
+          alt="Penyimpanan aset dan furniture bekas di Jakarta"
+        />
         <span>Bergerak bersama masyarakat</span>
       </div>
       <div className="about-copy">
