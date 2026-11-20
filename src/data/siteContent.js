@@ -19,32 +19,32 @@ export const services = [
 export const itemGallery = [
   {
     title: 'AC bekas',
-    image: '/images/used-ac.jpg',
+    image: '/images/gallery-ac.jpg',
     source: '',
   },
   {
     title: 'Genset',
-    image: '/images/used-genset.jpg',
+    image: '/images/gallery-genset.jpg',
     source: '',
   },
   {
     title: 'Furniture',
-    image: '/images/used-furniture.jpg',
+    image: '/images/gallery-furniture.jpg',
     source: '',
   },
   {
     title: 'Spring bed',
-    image: '/images/used-mattress.jpg',
+    image: '/images/gallery-mattress.jpg',
     source: '',
   },
   {
     title: 'Alat masak & restoran',
-    image: '/images/used-kitchen.jpg',
+    image: '/images/gallery-kitchen.jpg',
     source: '',
   },
   {
     title: 'Komputer & elektronik',
-    image: '/images/used-electronics.jpg',
+    image: '/images/gallery-electronics.jpg',
     source: '',
   },
 ];
