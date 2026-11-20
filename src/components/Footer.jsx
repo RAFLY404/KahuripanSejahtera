@@ -16,11 +16,7 @@ export default function Footer() {
           <a href="#tentang">Tentang kami</a>
           <a href="#layanan">Layanan</a>
           <a href="#proses">Cara kerja</a>
-          <a
-            href={whatsappUrl('Halo Kahuripan Sejahtera, saya ingin bertanya.')}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={whatsappUrl()} target="_blank" rel="noreferrer">
             WhatsApp
           </a>
         </div>

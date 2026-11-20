@@ -1,4 +1,5 @@
 import WhatsAppButton from './WhatsAppButton';
+import { WHATSAPP_TEMPLATES } from '../utils/whatsapp';
 
 export default function Contact() {
   return (
@@ -16,8 +17,8 @@ export default function Contact() {
           Ceritakan barang yang ingin Anda jual. Kirim foto dan detail singkat melalui WhatsApp,
           lalu tim Kahuripan Sejahtera akan membantu dari sana.
         </p>
-        <WhatsAppButton>Mulai via WhatsApp</WhatsAppButton>
-        <small>Respons cepat pada jam operasional.</small>
+        <WhatsAppButton message={WHATSAPP_TEMPLATES.sell}>Mulai via WhatsApp</WhatsAppButton>
+        <small>Template pesan sudah disiapkan agar lebih cepat.</small>
       </div>
     </section>
   );

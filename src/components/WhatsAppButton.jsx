@@ -1,13 +1,10 @@
 import { ArrowUpRight, MessageCircle } from 'lucide-react';
-import { whatsappUrl } from '../utils/whatsapp';
-
-const DEFAULT_MESSAGE =
-  'Halo Kahuripan Sejahtera, saya ingin bertanya tentang layanan barang bekas.';
+import { whatsappUrl, WHATSAPP_TEMPLATES } from '../utils/whatsapp';
 
 export default function WhatsAppButton({
   children = 'Hubungi kami',
   className = '',
-  message = DEFAULT_MESSAGE,
+  message = WHATSAPP_TEMPLATES.general,
 }) {
   return (
     <a
