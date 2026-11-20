@@ -33,7 +33,7 @@ export const itemGallery = [
     source: '',
   },
   {
-    title: 'Spring bed',
+    title: 'Barang Bekas Hotel',
     image: '/images/gallery-mattress.jpg',
     source: '',
   },
