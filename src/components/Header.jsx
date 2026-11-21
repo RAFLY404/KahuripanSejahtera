@@ -1,6 +1,7 @@
 import { ArrowUpRight, Menu, X } from 'lucide-react';
 import { navigationLinks } from '../data/siteContent';
 import { whatsappUrl } from '../utils/whatsapp';
+import { trackWhatsAppClick } from '../utils/analytics';
 import Brand from './Brand';
 import WhatsAppButton from './WhatsAppButton';
 
@@ -17,7 +18,13 @@ export default function Header({ open, setOpen }) {
             {link.label}
           </a>
         ))}
-        <a className="mobile-whatsapp" href={whatsappUrl()} target="_blank" rel="noreferrer">
+        <a
+          className="mobile-whatsapp"
+          href={whatsappUrl()}
+          onClick={() => trackWhatsAppClick('mobile_menu', 'WhatsApp')}
+          target="_blank"
+          rel="noreferrer"
+        >
           WhatsApp <ArrowUpRight size={14} />
         </a>
       </nav>
@@ -26,7 +33,7 @@ export default function Header({ open, setOpen }) {
         <a className="header-text-link" href="#tentang">
           Profil perusahaan
         </a>
-        <WhatsAppButton className="header-button">
+        <WhatsAppButton className="header-button" location="header">
           WhatsApp <ArrowUpRight size={14} />
         </WhatsAppButton>
       </div>

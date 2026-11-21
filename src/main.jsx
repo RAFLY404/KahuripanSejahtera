@@ -4,6 +4,7 @@ import { companyHighlights } from './data/siteContent';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import GoogleTagManager from './components/GoogleTagManager';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ItemGallery from './components/ItemGallery';
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <>
+      <GoogleTagManager />
       <Header open={menuOpen} setOpen={setMenuOpen} />
       <main>
         <Hero />

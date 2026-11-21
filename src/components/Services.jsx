@@ -19,7 +19,9 @@ export default function Services() {
             Dari barang rumah tangga hingga aset bisnis, kami membantu Anda mendapatkan nilai yang
             wajar tanpa proses yang berbelit.
           </p>
-          <WhatsAppButton className="section-button">Hubungi kami</WhatsAppButton>
+          <WhatsAppButton className="section-button" location="services">
+            Hubungi kami
+          </WhatsAppButton>
         </div>
       </div>
       <div className="service-list">

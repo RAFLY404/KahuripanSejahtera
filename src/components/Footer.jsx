@@ -1,5 +1,6 @@
 import { MessageCircle } from 'lucide-react';
 import { whatsappUrl } from '../utils/whatsapp';
+import { trackWhatsAppClick } from '../utils/analytics';
 import Brand from './Brand';
 
 export default function Footer() {
@@ -16,7 +17,12 @@ export default function Footer() {
           <a href="#tentang">Tentang kami</a>
           <a href="#layanan">Layanan</a>
           <a href="#proses">Cara kerja</a>
-          <a href={whatsappUrl()} target="_blank" rel="noreferrer">
+          <a
+            href={whatsappUrl()}
+            onClick={() => trackWhatsAppClick('footer_link', 'WhatsApp')}
+            target="_blank"
+            rel="noreferrer"
+          >
             WhatsApp
           </a>
         </div>
@@ -24,7 +30,12 @@ export default function Footer() {
       <div className="footer-bottom">
         <span>© 2024 Kahuripan Sejahtera</span>
         <span>Jual beli barang bekas Jabodetabek</span>
-        <a href={whatsappUrl()} target="_blank" rel="noreferrer">
+        <a
+          href={whatsappUrl()}
+          onClick={() => trackWhatsAppClick('footer', 'Chat WhatsApp')}
+          target="_blank"
+          rel="noreferrer"
+        >
           <MessageCircle size={13} /> Chat WhatsApp
         </a>
       </div>

@@ -34,7 +34,9 @@ export default function About() {
             <small>Kahuripan Sejahtera</small>
           </span>
         </div>
-        <WhatsAppButton className="section-button">Hubungi kami</WhatsAppButton>
+        <WhatsAppButton className="section-button" location="about">
+          Hubungi kami
+        </WhatsAppButton>
       </div>
     </section>
   );

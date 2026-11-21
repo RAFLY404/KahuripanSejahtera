@@ -17,7 +17,9 @@ export default function Contact() {
           Ceritakan barang yang ingin Anda jual. Kirim foto dan detail singkat melalui WhatsApp,
           lalu tim Kahuripan Sejahtera akan membantu dari sana.
         </p>
-        <WhatsAppButton message={WHATSAPP_TEMPLATES.sell}>Mulai via WhatsApp</WhatsAppButton>
+        <WhatsAppButton message={WHATSAPP_TEMPLATES.sell} location="contact">
+          Mulai via WhatsApp
+        </WhatsAppButton>
         <small>Template pesan sudah disiapkan agar lebih cepat.</small>
       </div>
     </section>

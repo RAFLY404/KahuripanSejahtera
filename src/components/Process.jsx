@@ -35,7 +35,9 @@ export default function Process() {
           </div>
         ))}
       </div>
-      <WhatsAppButton className="section-button process-button">Hubungi kami</WhatsAppButton>
+      <WhatsAppButton className="section-button process-button" location="process">
+        Hubungi kami
+      </WhatsAppButton>
     </section>
   );
 }

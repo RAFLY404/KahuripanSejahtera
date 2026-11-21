@@ -34,3 +34,20 @@ public/images/         Local illustrations, photos, and image attributions
 - Edit company text and gallery items in `src/data/siteContent.js`.
 - Add or replace local images in `public/images/`.
 - Add or adjust sections in `src/components/`.
+
+## Google tag
+
+Copy `.env.example` to `.env` if you want to override the Google Tag Manager container ID:
+
+```env
+VITE_GOOGLE_TAG_ID=GTM-M2WC6WXD
+```
+
+The project uses `GTM-M2WC6WXD` by default. Do not commit `.env`.
+
+The app sends these events to Google Tag Manager's `dataLayer`:
+
+- `page_view` — records each page visit with `page_path` and `page_title`.
+- `whatsapp_contact_click` — records WhatsApp clicks with `button_label`, `button_location`, and `destination`.
+
+Create Custom Event triggers with these names in Google Tag Manager, then connect them to your GA4 Event tags.

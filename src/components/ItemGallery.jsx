@@ -18,7 +18,9 @@ export default function ItemGallery() {
             Kirimkan foto barang Anda. Kami membantu menilai dan menentukan langkah terbaik untuk
             setiap jenis aset.
           </p>
-          <WhatsAppButton className="section-button">Hubungi kami</WhatsAppButton>
+          <WhatsAppButton className="section-button" location="gallery">
+            Hubungi kami
+          </WhatsAppButton>
         </div>
       </div>
       <div className="gallery-grid">

@@ -21,7 +21,7 @@ export default function Hero() {
           <a className="button button-primary" href="#layanan">
             Lihat layanan kami <ArrowRight size={16} />
           </a>
-          <WhatsAppButton>Hubungi kami</WhatsAppButton>
+          <WhatsAppButton location="hero">Hubungi kami</WhatsAppButton>
           <a className="text-link" href="#kontak">
             Minta penawaran <span>↗</span>
           </a>
