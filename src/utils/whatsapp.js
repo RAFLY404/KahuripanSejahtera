@@ -1,27 +1,7 @@
-const WHATSAPP_NUMBER = '6281234567890';
+const WHATSAPP_NUMBER = '6281292533439';
 
 export const WHATSAPP_TEMPLATES = {
-  general: `Halo Kahuripan Sejahtera,
-
-Saya ingin bertanya tentang layanan barang bekas.
-
-Nama:
-Keperluan:
-Lokasi:
-
-Terima kasih.`,
-  sell: `Halo Kahuripan Sejahtera,
-
-Saya ingin menjual barang bekas.
-
-Nama:
-Jenis barang:
-Jumlah barang:
-Lokasi:
-Kondisi barang:
-
-Foto barang akan saya kirim setelah pesan ini.
-Terima kasih.`,
+  general: `Halo, Saya Ingin Menjual Barang Bekas Saya`,
 };
 
 export function whatsappUrl(message = WHATSAPP_TEMPLATES.general) {
