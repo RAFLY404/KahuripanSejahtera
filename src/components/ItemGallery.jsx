@@ -1,4 +1,5 @@
 import { itemGallery } from '../data/siteContent';
+import WhatsAppButton from './WhatsAppButton';
 
 export default function ItemGallery() {
   return (
@@ -12,10 +13,13 @@ export default function ItemGallery() {
             <em>satu solusi.</em>
           </h2>
         </div>
-        <p className="section-intro">
-          Kirimkan foto barang Anda. Kami membantu menilai dan menentukan langkah terbaik untuk
-          setiap jenis aset.
-        </p>
+        <div className="section-intro">
+          <p>
+            Kirimkan foto barang Anda. Kami membantu menilai dan menentukan langkah terbaik untuk
+            setiap jenis aset.
+          </p>
+          <WhatsAppButton className="section-button">Hubungi kami</WhatsAppButton>
+        </div>
       </div>
       <div className="gallery-grid">
         {itemGallery.map((item) => (

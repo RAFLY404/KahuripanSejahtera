@@ -1,4 +1,5 @@
 import { Check } from 'lucide-react';
+import WhatsAppButton from './WhatsAppButton';
 
 const steps = [
   ['1. Hubungi kami', 'Kirim foto, jenis barang, jumlah, dan lokasi melalui WhatsApp.'],
@@ -34,6 +35,7 @@ export default function Process() {
           </div>
         ))}
       </div>
+      <WhatsAppButton className="section-button process-button">Hubungi kami</WhatsAppButton>
     </section>
   );
 }

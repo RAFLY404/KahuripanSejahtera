@@ -1,3 +1,5 @@
+import WhatsAppButton from './WhatsAppButton';
+
 export default function About() {
   return (
     <section className="about section-pad" id="tentang">
@@ -32,6 +34,7 @@ export default function About() {
             <small>Kahuripan Sejahtera</small>
           </span>
         </div>
+        <WhatsAppButton className="section-button">Hubungi kami</WhatsAppButton>
       </div>
     </section>
   );

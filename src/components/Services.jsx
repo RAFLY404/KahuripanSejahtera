@@ -1,5 +1,6 @@
 import { ArrowUpRight } from 'lucide-react';
 import { services } from '../data/siteContent';
+import WhatsAppButton from './WhatsAppButton';
 
 export default function Services() {
   return (
@@ -13,10 +14,13 @@ export default function Services() {
             <em>barang Anda.</em>
           </h2>
         </div>
-        <p className="section-intro">
-          Dari barang rumah tangga hingga aset bisnis, kami membantu Anda mendapatkan nilai yang
-          wajar tanpa proses yang berbelit.
-        </p>
+        <div className="section-intro">
+          <p>
+            Dari barang rumah tangga hingga aset bisnis, kami membantu Anda mendapatkan nilai yang
+            wajar tanpa proses yang berbelit.
+          </p>
+          <WhatsAppButton className="section-button">Hubungi kami</WhatsAppButton>
+        </div>
       </div>
       <div className="service-list">
         {services.map((service) => (
